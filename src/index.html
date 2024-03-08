@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <link href="./buttons.css" rel="stylesheet">
+    <title>Inicio</title>
 </head>
-<body>
+<body class="h-screen flex justify-center items-center bg-1 bg-cover bg-no-repeat"> <!-- Fondo -->
     
+    <div class="w-full h-full backdrop-blur-[2px] bg-pink-500/10"> <!-- Filtros -->
+        <div class="flex flex-col justify-center items-center h-full">
+            <div class="w-1/4 text-center animate-jump-in animate-duration-[1100ms] animate-ease-out">
+                <!-- Logo -->
+                <img src="/src/img/Logo.png" alt="Logo" class="w-64 h-auto mx-auto
+                ">
+                <!-- Botones -->
+                <div class="b mx-auto h-16 w-64 flex justify-center items-center mt-2 mb-4">
+                    <div class="i h-16 w-64  bg-gradient-to-br from-rose-400 to-red-600 items-center rounded-lg shadow-2xl cursor-pointer absolute overflow-hidden transform hover:scale-x-110 hover:scale-y-105 transition duration-300 ease-out">
+                    </div>
+                    <a class="text-center text-white font-namecat text-3xl uppercase z-10 pointer-events-none">Jugar</a>
+                </div>
+                <div class="b mx-auto h-16 w-64 flex justify-center items-center mt-2 mb-4">
+                    <div class="i h-16 w-64 bg-gradient-to-br from-rose-400 to-red-600 items-center rounded-lg shadow-2xl cursor-pointer absolute overflow-hidden transform hover:scale-x-110 hover:scale-y-105 transition duration-300 ease-out">
+                    </div>
+                    <a class="text-center text-white font-namecat text-3xl uppercase z-10 pointer-events-none">Ajustes</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="/js/buttons.js"></script>
+
 </body>
 </html>
