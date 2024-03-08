@@ -893,6 +893,10 @@ video {
   animation-duration: 1100ms;
 }
 
+.animate-duration-\[1080ms\] {
+  animation-duration: 1080ms;
+}
+
 .animate-ease-in {
   animation-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
